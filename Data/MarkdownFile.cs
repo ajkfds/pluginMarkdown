@@ -9,7 +9,7 @@ namespace pluginMarkdown.Data
 {
     public class MarkdownFile : codeEditor.Data.TextFile
     {
-        public static MarkdownFile Create(string relativePath, codeEditor.Data.Project project)
+        public static new MarkdownFile Create(string relativePath, codeEditor.Data.Project project)
         {
             //string id = GetID(relativePath, project);
 
