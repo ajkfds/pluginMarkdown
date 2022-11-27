@@ -28,7 +28,6 @@ namespace pluginMarkdown.Data
             return fileItem;
         }
 
-        private codeEditor.CodeEditor.CodeDocument document = null;
 
 
         public override codeEditor.NavigatePanel.NavigatePanelNode CreateNode()
