@@ -30,7 +30,7 @@ namespace pluginMarkdown.Data
 
 
 
-        public override codeEditor.NavigatePanel.NavigatePanelNode CreateNode()
+        protected override codeEditor.NavigatePanel.NavigatePanelNode createNode()
         {
             return new codeEditor.NavigatePanel.TextFileNode(this);
         }
